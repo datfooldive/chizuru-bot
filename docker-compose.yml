@@ -1,0 +1,10 @@
+services:
+  bot:
+    build: .
+    volumes:
+      - auth_data:/app/auth_info_baileys
+      - db_data:/app/bot.db
+
+volumes:
+  auth_data:
+  db_data:

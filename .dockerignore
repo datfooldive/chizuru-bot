@@ -1,0 +1,6 @@
+node_modules
+auth_info_baileys
+drizzle
+npm-debug.log
+.env
+.git
